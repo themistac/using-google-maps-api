@@ -1,0 +1,642 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+<base href="http://www.bluehorizonideas.com/">
+
+<title>UK Regional Stores - Blue Horizon</title>
+
+<meta name="robots" content="index, follow" />
+<meta name="description" content="Find your nearest Blue Horizon international and national distributor and dealers">
+<meta name="keywords" content="isotek, isotek systems, audio power, clean power pure sound, EVO3 Polaris, EVO3 Mini Mira, EVO3 Venus, EVO3 Isoplug, EVO3 Aquarius, EVO3 Solus, EVO3 Sirius, EVO3 Syncro, EVO3 Titan, EVO3 Sigmas, Mosaic Genesis, EVO3 Super Titan, EVO3 Genesis, EVO3 Premier, EVO3 Sequel, EVO3 Elite, EVO3 Optimum, 24ct Gold Audiophile Grade Connectors, Ultimate System Set-Up Disc, EVO3 Protek, Full System Enhancer, Power cleaner, AC line conditioner, AC line filter, Hi-Fi power cleaner, hifi power cleaner, Hi-Fi power conditioner, hifi power conditioner, Filter, AC filter, Regenerator, Audio regenerator, Audio power conditioner, Audio power filter, mains filter, Isolation transformer" />
+
+<link type="text/css" rel="stylesheet" href="assets/templates/bluehorizon/css/jquery.mmenu.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="assets/templates/bluehorizon/js/jquery.mmenu.js"></script>
+<script>
+
+$(function() {
+	$('div#menu').mmenu({
+	slidingSubmenus: false
+	});
+});
+
+</script>
+
+
+
+<link type="text/css" rel="stylesheet" href="assets/templates/bluehorizon/css/font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" href="assets/templates/bluehorizon/css/main.css?201706211045" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> 
+
+<script>
+$(document).ready( function(){
+
+    $('.country-selector .country-selector-control a.trigger').click( function(event){
+        event.stopPropagation();
+        $('.country-selector-menu').toggle( "fade", "fast" );
+    });
+
+    $(document).click( function(){
+        $('.country-selector-menu').hide( "fade", "fast" );
+    });
+});
+</script>
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<link type="text/css" rel="stylesheet" href="assets/templates/bluehorizon/css/tabs.css" />
+
+<style>
+.tab-links { border-bottom:1px solid #ccc; margin-bottom:20px; }
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19728154-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body >
+
+<div id="page">
+
+<div class="row toolbar">
+<div class="container">
+<p class="welcome"><strong>Welcome to Blue Horizon</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General Questions: info@bluehorizonideas.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Overseas Distribution: info@bluehorizonideas.com</p>
+<span class="icons"><a class="fa fa-facebook" href="https://www.facebook.com/bluehorizonideas/" target="_blank" title="Blue Horizon on Facebook"></a></span>
+<div class="country-selector">
+    <div class="country-selector-control">
+        <a class="trigger" href="javascript:;" title="web">Language &nbsp;&nbsp;&nbsp;&nbsp;<img alt="web" src="/images/flags/en.png"></a>
+    </div>
+    <div class="country-selector-menu" style="display:none;">
+      <ul>
+        <li><a href="/">International<img alt="International" src="/images/flags/gb.png"></a></li>
+        <li><a href="/de/">Deutschland<img alt="Deutschland" src="/images/flags/de.png"></a></li>
+      </ul>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="header-shadow">
+<div id="header-wrapper">
+<div id="header">
+<a href="http://www.bluehorizonideas.com/" id="logo"><img src="assets/templates/bluehorizon/css/images/logo-orange.svg" alt="Blue Horizon"></a>
+
+<div class="menu">
+<a href="#menu"></a>
+<span class="sitename">Blue Horizon</span>
+</div><!-- end menu -->
+
+</div><!-- end header -->
+
+<div id="nav">
+<ul><li class="first"><a href="http://www.bluehorizonideas.com/" title="Home" >Home</a></li>
+<li><a href="products/" title="Products" >Products</a></li>
+<li><a href="news/" title="News" >News</a></li>
+<li class="active"><a href="where-to-buy/" title="Where to buy" >Where to buy</a></li>
+<li class="last"><a href="contact" title="Contact" >Contact</a></li>
+</ul>
+</div><!-- end nav -->
+
+</div><!-- end header-wrapper -->
+</div><!-- end header-shadow -->
+
+
+
+
+
+
+
+<div class="section cf odd">
+<div class="row border-bottom">
+<div class="container cf">
+<h1>Where to buy</h1>
+</div><!-- container -->
+</div><!-- row -->
+</div><!-- section -->
+
+<div class="section cf border-bottom map-container">
+<div class="row cf">
+<div class="container">
+
+<ul class="tab-links">
+<li><a href="where-to-buy/distributors/">Blue Horizon International Distribution</a></li>
+<li class="active"><a href="where-to-buy/uk-regional-stores/">UK</a></li>
+</ul>
+
+<div id="map" class="map"></div>
+</div><!-- container -->
+</div><!-- row -->
+</div><!-- section -->
+
+
+<div class="section cf">
+<div class="container">
+<div id="location-menu" class="row cf">
+<h3>UK stores</h3>
+<ul>
+<li><a id="location0" href="javascript:;">Adams & Jarrett Retail Ltd</a></li>
+<li><a id="location1" href="javascript:;">Analogue Seduction</a></li>
+<li><a id="location2" href="javascript:;">Audio Destination</a></li>
+<li><a id="location3" href="javascript:;">Audio T (Bristol)</a></li>
+<li><a id="location4" href="javascript:;">Audio T (Cardiff)</a></li>
+<li><a id="location5" href="javascript:;">Audio T (Cheltenham)</a></li>
+<li><a id="location6" href="javascript:;">Audio T (Oxford)</a></li>
+<li><a id="location7" href="javascript:;">Audio T (Southampton)</a></li>
+<li><a id="location8" href="javascript:;">Audio T (Swindon)</a></li>
+<li><a id="location9" href="javascript:;">Canterbury Hi-Fi</a></li>
+<li><a id="location10" href="javascript:;">Connect Audio</a></li>
+<li><a id="location11" href="javascript:;">Custom Cable</a></li>
+<li><a id="location12" href="javascript:;">Deco Audio</a></li>
+<li><a id="location13" href="javascript:;">Frank Harvey (Hi Fi Excellence Ltd)</a></li>
+<li><a id="location14" href="javascript:;">Futureshop</a></li>
+<li><a id="location15" href="javascript:;">Hi-Fi Sound</a></li>
+<li><a id="location16" href="javascript:;">HiFi Gear Ltd</a></li>
+<li><a id="location17" href="javascript:;">Home Media Ltd</a></li>
+<li><a id="location18" href="javascript:;">Jordan Acoustics</a></li>
+<li><a id="location19" href="javascript:;">Jordan Acoustics (Bournemouth)</a></li>
+<li><a id="location20" href="javascript:;">Lintone Audio</a></li>
+<li><a id="location21" href="javascript:;">Martins Hi-Fi</a></li>
+<li><a id="location22" href="javascript:;">MCRU</a></li>
+<li><a id="location23" href="javascript:;">Midland Audio X-Change</a></li>
+<li><a id="location24" href="javascript:;">Musicarch</a></li>
+<li><a id="location25" href="javascript:;">Paul Green Hi-Fi</a></li>
+<li><a id="location26" href="javascript:;">Progressive Audio</a></li>
+<li><a id="location27" href="javascript:;">Sound Academy</a></li>
+<li><a id="location28" href="javascript:;">The Old Steam House</a></li>
+<li><a id="location29" href="javascript:;">Unilet Sound and Vision Ltd</a></li>
+</ul>
+</div><!-- row -->
+</div><!-- container -->
+</div><!-- section -->
+
+
+
+
+
+<script type="text/javascript">
+    // Define your locations: HTML content for the info window, latitude, longitude
+    var locations = [
+['<h4>Adams & Jarrett Retail Ltd</h4><p><p>6-18 Norman Road<br />St Leonards-On-Sea<br />East Sussex<br />TN37 6NH<br /><br />T: 01424 437165<br />E: <a href="mailto:enquiries@adamsandjarrett.com">enquiries@adamsandjarrett.com</a><br /><a href="http://www.adamsandjarrett.com" target="_blank">www.adamsandjarrett.com</a></p></p>', 50.852437, 0.561110, 'Adams & Jarrett Retail Ltd'],
+['<h4>Analogue Seduction</h4><p><p><span style="line-height: 1.5em;">Manor House<br /></span><span style="line-height: 1.5em;">6 Manor View  Whittlesey<br /></span><span style="line-height: 1.5em;">Peterborough<br /></span><span style="line-height: 1.5em;">Cambridgeshire<br /></span><span style="line-height: 1.5em;">PE7 1TF</span></p> <p>T: 01733 344768<br />E: <a href="mailto:info@analogueseduction.net">info@analogueseduction.net</a><br /><a href="http://www.analogueseduction.net" target="_blank">www.analogueseduction.net</a></p></p>', 52.554705, -0.128004, 'Analogue Seduction'],
+['<h4>Audio Destination</h4><p><p>Suite 7a<br />Market walk<br />Tiverton<br />Devon<br />EX16 6BL<br /><br />T: 01884 243 584<br /><a href="http://www.audiodestination.co.uk" target="_blank">www.audiodestination.co.uk</a></p></p>', 50.904296, -3.486673, 'Audio Destination'],
+['<h4>Audio T (Bristol)</h4><p><p>65 Park Street<br />Bristol<br />Avon<br />BS1 5PB<br /><br />T: 0117 926 4975<br />E: <a href="mailto:bristol@audio-t.co.uk">bristol@audio-t.co.uk</a><br /><a href="http://www.audiot.co.uk" target="_blank">www.audiot.co.uk</a></p></p>', 51.454937, -2.603668, 'Audio T (Bristol)'],
+['<h4>Audio T (Cardiff)</h4><p><p>134/136 Crwys Road<br />Cardiff<br />CF24 4NR<br /><br />T: 029 2022 8565<br />F: 029 2039 8201<br />E: <a href="mailto:cardiff@audio-t.co.uk">cardiff@audio-t.co.uk</a><br /><a href="http://www.audio-t.co.uk" target="_blank">www.audio-t.co.uk</a></p></p>', 51.496813, -3.181077, 'Audio T (Cardiff)'],
+['<h4>Audio T (Cheltenham)</h4><p><p>38 Winchcombe Street<br />Cheltenham<br />Gloucestershire<br />GL52 2LZ<br /><br />T: 01242 583960<br />E: <a href="mailto:cheltenham@audio-t.co.uk">cheltenham@audio-t.co.uk</a><br /><a href="http://www.audiot.co.uk" target="_blank">www.audiot.co.uk</a></p></p>', 51.900616, -2.072390, 'Audio T (Cheltenham)'],
+['<h4>Audio T (Oxford)</h4><p><p>19 Old High Street<br />Oxford<br />Oxfordshire<br />OX3 9HS<br /><br />T: 01856 765961<br />E: <a href="mailto:oxford@audio-t.co.uk">oxford@audio-t.co.uk</a><br /><a href="http://www.audiot.co.uk" target="_blank">www.audiot.co.uk</a></p></p>', 51.760936, -1.211207, 'Audio T (Oxford)'],
+['<h4>Audio T (Southampton)</h4><p><p>12 Hursley Road<br />Southampton<br />SO53 2FU<br /><br />T: 02380 252827<br />E: <a href="mailto:southampton@audio-t.co.uk">southampton@audio-t.co.uk</a><br /><a href="http://www.audiot.co.uk" target="_blank">www.audiot.co.uk</a></p></p>', 50.984277, -1.385376, 'Audio T (Southampton)'],
+['<h4>Audio T (Swindon)</h4><p><p>60 Fleet Street<br />Swindon<br />SN1 1RA<br /><br />T: 01793 538222<br />F: 01793 487260<br />E: <a href="mailto:swindon@audio-t.co.uk">swindon@audio-t.co.uk</a><br /><a href="http://www.audio-t.co.uk" target="_blank">www.audio-t.co.uk</a></p></p>', 51.562040, -1.787662, 'Audio T (Swindon)'],
+['<h4>Canterbury Hi-Fi</h4><p><p>Unit 1, Georges Centre<br /><span style="line-height: 1.5em;">Canterbury<br /></span><span style="line-height: 1.5em;">Kent<br /></span><span style="line-height: 1.5em;">CT1 1UL</span></p> <p>T: 01227 765315<br />E: <a href="mailto:sales@canterburyhifi.co.uk" target="_blank">sales@canterburyhifi.co.uk</a><br /><a href="http://www.canterburyhifi.co.uk" target="_blank">www.canterburyhifi.co.uk</a></p></p>', 51.276390, 1.086101, 'Canterbury Hi-Fi'],
+['<h4>Connect Audio</h4><p><p>51 Raymond Road<br />Slough<br />Berkshire<br />SL3 8LN<br /><br />T: 07798 656550<br />E: <a href="mailto:websales@connect-audio.co.uk" target="_blank">websales@connect-audio.co.uk</a><br /><a href="http://www.connect-audio.co.uk" target="_blank">www.connect-audio.co.uk</a></p></p>', 51.501100, -0.540267, 'Connect Audio'],
+['<h4>Custom Cable</h4><p><p>35 High Street<br />New Malden<br />Greater London<br />KT3 4BY<br /><br />T: 020 8942 9124<br />E: <a href="mailto:sales@custom-cable.co.uk">sales@custom-cable.co.uk</a><br /><a href="http://www.custom-cable.co.uk/" target="_blank">www.custom-cable.co.uk</a></p></p>', 51.402613, -0.256944, 'Custom Cable'],
+['<h4>Deco Audio</h4><p><p>36 Buckingham Street<br />Aylesbury<br />Bucks<br />HP20 2LH<br /><br />T: 01296 422224<br />E: <a href="mailto:info@decoaudio.com" target="_blank">info@decoaudio.com</a><br /><a href="http://www.decoaudio.com" target="_blank">www.decoaudio.com</a></p></p>', 51.818307, -0.813558, 'Deco Audio'],
+['<h4>Frank Harvey (Hi Fi Excellence Ltd)</h4><p><p>163-165 Spon Street<br />Coventry<br />CV1 3BB<br /><br />T: 02476 525 200<br />F: 02476 631 403<br />E: <a href="mailto:info@hifix.co.uk">info@hifix.co.uk</a><br /><a href="http://www.hifix.co.uk" target="_blank">www.hifix.co.uk</a></p></p>', 52.408453, -1.517800, 'Frank Harvey (Hi Fi Excellence Ltd)'],
+['<h4>Futureshop</h4><p><p>Unit 5, Moda Business Centre<br />Stirling Way<br />Borehamwood<br />Herts<br />WD6 2BW<br /><br />T: 02089 051555<br />E: <a href="mailto:sales@futureshop.co.uk" target="_blank">sales@futureshop.co.uk</a><br /><a href="http://www.futureshop.co.uk" target="_blank">www.futureshop.co.uk</a></p></p>', 51.646271, -0.254412, 'Futureshop'],
+['<h4>Hi-Fi Sound</h4><p><p>Castlegate Mill<br />Riverside<br />Stockton-on-Tees<br />Cleveland<br />TS18 1BZ<br /><br />T: 08456 019390<br />E: <a href="mailto:info@hifisound.co.uk" target="_blank">info@hifisound.co.uk</a><br /><a href="http://www.hifisound.co.uk" target="_blank">www.hifisound.co.uk</a></p></p>', 54.560651, -1.311968, 'Hi-Fi Sound'],
+['<h4>HiFi Gear Ltd</h4><p><p>Unit 3<br />Westgate Retail Park<br />Gloucester<br />GL1 2RD<br /><br />T: 01452 306412<br />E: <a href="mailto:phil@hifigear.co.uk">phil@hifigear.co.uk</a><br /><a href="http://www.hifigear.co.uk" target="_blank">www.hifigear.co.uk</a></p></p>', 51.869561, -2.254311, 'HiFi Gear Ltd'],
+['<h4>Home Media Ltd</h4><p><p>24-26 Union Street<br />Maidstone<br />Kent<br />ME14 1ED<br /><br />T: 01622 676703<br />E: <a href="mailto:sales@homemedialimited.co.uk">sales@homemedialimited.co.uk</a><br /><a href="http://www.homemedialimited.co.uk" target="_blank">www.homemedialimited.co.uk</a></p></p>', 51.276167, 0.524947, 'Home Media Ltd'],
+['<h4>Jordan Acoustics</h4><p><p>20-22 Cadham Centre<br />Glenrothes<br />Fife<br />KY7 6RU<br /><br />T: 0800 121 4771 / 0800 121 4772<br />E: <a href="mailto:ask@jordanacoustics.co.uk">ask@jordanacoustics.co.uk</a><br /><a href="http://www.jordanacoustics.co.uk" target="_blank">www.jordanacoustics.co.uk</a></p></p>', 56.207929, -3.169827, 'Jordan Acoustics'],
+['<h4>Jordan Acoustics (Bournemouth)</h4><p><p>Unit 2 - The Old Cart Building<br />Parley Court Barns<br />Parley Green Lane<br />Hurn<br />Dorset BH23 6B<br /><br />T: 01202 911886<br />E: <a href="mailto:ask@jordanacoustics.co.uk">ask@jordanacoustics.co.uk</a><br /><a href="http://www.jordanacoustics.co.uk" target="_blank">www.jordanacoustics.co.uk</a></p></p>', 50.774747, -1.859403, 'Jordan Acoustics (Bournemouth)'],
+['<h4>Lintone Audio</h4><p><p>7-11 Park Lane<br />Gateshead<br />Tyne &amp; Wear<br />NE8 3JW<br /><br />T: 01914 774167<br />E: <a href="mailto:sales@lintone.co.uk" target="_blank">sales@lintone.co.uk</a><br /><a href="http://www.lintone.co.uk" target="_blank">www.lintone.co.uk</a></p></p>', 54.961529, -1.600412, 'Lintone Audio'],
+['<h4>Martins Hi-Fi</h4><p><p>85/87 Ber Street<br />Norwich<br />Norfolk<br />NR1 3EY<br /><br />T: 01603 627010<br />E: <a href="mailto:sales@martinshifi.co.uk">sales@martinshifi.co.uk</a><br /><a href="http://www.martinshifi.co.uk/" target="_blank">www.martinshifi.co.uk</a></p></p>', 52.623227, 1.298248, 'Martins Hi-Fi'],
+['<h4>MCRU</h4><p><p>A2 Gledholt Business Park<br />Allen Row<br />Huddersfield<br />HD1 4SB</p> <p>T: 01484 540561   M: 07908 056978<br />E: <a href="mailto:david@mcru.co.uk">david@mcru.co.uk</a><br /><a href="http://www.mains-cables-r-us.co.uk/" target="_blank">www.mains-cables-r-us.co.uk</a></p></p>', 53.643700, -1.801262, 'MCRU'],
+['<h4>Midland Audio X-Change</h4><p><p>The Old Chapel<br />Forge Lane<br />Belbroughton<br /><span style="line-height: 1.5em;">West Midlands<br />DY9 9TD</span></p> <p>T: 01562 731100<br />E:<a href="sales@midlandaudiox-change.co.uk" target="_blank"> sales@midlandaudiox-change.co.uk</a><br /><a href="http://www.midlandaudiox-change.co.uk" target="_blank">www.midlandaudiox-change.co.uk</a></p></p>', 52.392923, -2.106185, 'Midland Audio X-Change'],
+['<h4>Musicarch</h4><p><p>9 Glamis Road<br />Dundee<br />Angus<br />DD2 1ND<br /><br />T: 01382 523412<br />E: <a href="mailto:donald@musicarch.net">donald@musicarch.net</a><br /><a href="http://www.musicarch.net/brands/iso%20tek" target="_blank">www.musicarch.net</a></p></p>', 56.459612, -3.022563, 'Musicarch'],
+['<h4>Paul Green Hi-Fi</h4><p><p>Unit 8,<br />Brassmill Enterprise Centre<br />Brassmill Lane<br />Bath<br />BA1 3JN<br /><br />T: 01225 316197 / 01225 337955<br />F: 01225 481235<br />E: <a href="mailto:sales@paulgreenhifi.co.uk">sales@paulgreenhifi.co.uk</a><br /><a href="http://www.paulgreenhifi.co.uk" target="_blank">www.paulgreenhifi.co.uk</a></p></p>', 51.385498, -2.401541, 'Paul Green Hi-Fi'],
+['<h4>Progressive Audio</h4><p><p>2 Maryland Court<br />Rainham<br />Kent<br />ME8 8QY<br /><br />T: 01634 389004<br />E: <a href="mailto:progressiveaudio@blueyonder.co.uk">progressiveaudio@blueyonder.co.uk</a><br /><a href="http://www.progressiveaudio.co.uk" target="_blank">www.progressiveaudio.co.uk</a></p></p>', 51.346762, 0.602801, 'Progressive Audio'],
+['<h4>Sound Academy</h4><p><p>High Street  Bloxwich<br />Walsall<br />West Midlands<br />WS3 3JT<br /><br />T: 01922 493499<br />E: <a href="mailto:sales@soundacademy.co.uk">sales@soundacademy.co.uk</a><br /><a href="http://www.soundacademy.co.uk" target="_blank">www.soundacademy.co.uk</a></p></p>', 52.614558, -2.003930, 'Sound Academy'],
+['<h4>The Old Steam House</h4><p><p>14 Salt Lane<br /><span style="line-height: 1.5em;">Salisbury<br /></span><span style="line-height: 1.5em;">Wiltshire<br /></span><span style="line-height: 1.5em;">SP1 1EE</span></p> <p>T: 01722 322215<br />E: <a href="mailto:robbie@audiooasis.co.uk" target="_blank">robbie@audiooasis.co.uk</a><br /><a href="http://www.audiooasis.co.uk" target="_blank">www.audiooasis.co.uk</a></p></p>', 51.068133, -1.793718, 'The Old Steam House'],
+['<h4>Unilet Sound and Vision Ltd</h4><p><p>35 High Street<br />New Malden<br />Surrey<br />KT3 4BY<br /><br />T: 020 8942 9567<br /><a href="http://www.unilet.net/" target="_blank">www.unilet.net</a></p></p>', 51.403, -0.257, 'Unilet Sound and Vision Ltd']
+    ];
+    
+  // Create an array of styles.
+  var styles = [
+    {
+      stylers: [
+        { hue: "#005fab" },
+        { saturation: 0 }
+      ]
+    },{
+      featureType: "road",
+      elementType: "geometry",
+      stylers: [
+        { lightness: 100 },
+        { visibility: "simplified" }
+      ]
+    },{
+      featureType: "road",
+      elementType: "labels",
+      stylers: [
+        { visibility: "off" }
+      ]
+    }
+  ];
+
+  // Create a new StyledMapType object, passing it the array of styles,
+  // as well as the name to be displayed on the map type control.
+  var styledMap = new google.maps.StyledMapType(styles,
+    {name: "Styled Map"});
+
+
+    // Setup the different icons and shadows
+    var iconURLPrefix = '/images/map/';
+    
+    var icons = [
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png',
+      iconURLPrefix + 'marker-isotek.png'
+    ]
+    var icons_length = icons.length;
+    
+    
+    var shadow = {
+      anchor: new google.maps.Point(15,33),
+      url: iconURLPrefix + 'msmarker.shadow.png'
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 8,
+      center: new google.maps.LatLng(-37.92, 151.25),
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: false,
+      streetViewControl: false,
+      panControl: false,
+      zoomControlOptions: {
+         position: google.maps.ControlPosition.LEFT_TOP
+      }
+
+    });
+
+    var infowindow = new google.maps.InfoWindow({
+      maxWidth: 250
+    });
+
+    var marker;
+    var markers = new Array();
+    
+    var iconCounter = 0;
+    
+    // Add the markers and infowindows to the map
+    for (var i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+		title: locations[i][3],
+        icon : icons[iconCounter],
+        shadow: shadow
+      });
+
+      markers.push(marker);
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+      
+      iconCounter++;
+      // We only have a limited number of possible icon colors, so we may have to restart the counter
+      if(iconCounter >= icons_length){
+        iconCounter = 0;
+      }
+    }
+    // panControl
+        function clickroute(lati,long,zoom) {
+          var latLng = new google.maps.LatLng(lati, long); //Makes a latlng
+          map.setZoom(zoom);
+          map.panTo(latLng); //Make map global
+        }
+    
+
+    function AutoCenter() {
+      //  Create a new viewpoint bound
+      var bounds = new google.maps.LatLngBounds();
+      //  Go through each...
+      $.each(markers, function (index, marker) {
+        bounds.extend(marker.position);
+      });
+      //  Fit these bounds to the map
+      map.fitBounds(bounds);
+    }
+    AutoCenter();
+    
+    
+    // panTo
+    $("#location-menu").on("click", "#location0", function() {
+        google.maps.event.trigger(markers[0], "click");
+        var laLatLng = new google.maps.LatLng(50.852437, 0.561110);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location1", function() {
+        google.maps.event.trigger(markers[1], "click");
+        var laLatLng = new google.maps.LatLng(52.554705, -0.128004);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location2", function() {
+        google.maps.event.trigger(markers[2], "click");
+        var laLatLng = new google.maps.LatLng(50.904296, -3.486673);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location3", function() {
+        google.maps.event.trigger(markers[3], "click");
+        var laLatLng = new google.maps.LatLng(51.454937, -2.603668);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location4", function() {
+        google.maps.event.trigger(markers[4], "click");
+        var laLatLng = new google.maps.LatLng(51.496813, -3.181077);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location5", function() {
+        google.maps.event.trigger(markers[5], "click");
+        var laLatLng = new google.maps.LatLng(51.900616, -2.072390);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location6", function() {
+        google.maps.event.trigger(markers[6], "click");
+        var laLatLng = new google.maps.LatLng(51.760936, -1.211207);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location7", function() {
+        google.maps.event.trigger(markers[7], "click");
+        var laLatLng = new google.maps.LatLng(50.984277, -1.385376);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location8", function() {
+        google.maps.event.trigger(markers[8], "click");
+        var laLatLng = new google.maps.LatLng(51.562040, -1.787662);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location9", function() {
+        google.maps.event.trigger(markers[9], "click");
+        var laLatLng = new google.maps.LatLng(51.276390, 1.086101);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location10", function() {
+        google.maps.event.trigger(markers[10], "click");
+        var laLatLng = new google.maps.LatLng(51.501100, -0.540267);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location11", function() {
+        google.maps.event.trigger(markers[11], "click");
+        var laLatLng = new google.maps.LatLng(51.402613, -0.256944);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location12", function() {
+        google.maps.event.trigger(markers[12], "click");
+        var laLatLng = new google.maps.LatLng(51.818307, -0.813558);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location13", function() {
+        google.maps.event.trigger(markers[13], "click");
+        var laLatLng = new google.maps.LatLng(52.408453, -1.517800);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location14", function() {
+        google.maps.event.trigger(markers[14], "click");
+        var laLatLng = new google.maps.LatLng(51.646271, -0.254412);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location15", function() {
+        google.maps.event.trigger(markers[15], "click");
+        var laLatLng = new google.maps.LatLng(54.560651, -1.311968);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location16", function() {
+        google.maps.event.trigger(markers[16], "click");
+        var laLatLng = new google.maps.LatLng(51.869561, -2.254311);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location17", function() {
+        google.maps.event.trigger(markers[17], "click");
+        var laLatLng = new google.maps.LatLng(51.276167, 0.524947);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location18", function() {
+        google.maps.event.trigger(markers[18], "click");
+        var laLatLng = new google.maps.LatLng(56.207929, -3.169827);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location19", function() {
+        google.maps.event.trigger(markers[19], "click");
+        var laLatLng = new google.maps.LatLng(50.774747, -1.859403);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location20", function() {
+        google.maps.event.trigger(markers[20], "click");
+        var laLatLng = new google.maps.LatLng(54.961529, -1.600412);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location21", function() {
+        google.maps.event.trigger(markers[21], "click");
+        var laLatLng = new google.maps.LatLng(52.623227, 1.298248);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location22", function() {
+        google.maps.event.trigger(markers[22], "click");
+        var laLatLng = new google.maps.LatLng(53.643700, -1.801262);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location23", function() {
+        google.maps.event.trigger(markers[23], "click");
+        var laLatLng = new google.maps.LatLng(52.392923, -2.106185);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location24", function() {
+        google.maps.event.trigger(markers[24], "click");
+        var laLatLng = new google.maps.LatLng(56.459612, -3.022563);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location25", function() {
+        google.maps.event.trigger(markers[25], "click");
+        var laLatLng = new google.maps.LatLng(51.385498, -2.401541);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location26", function() {
+        google.maps.event.trigger(markers[26], "click");
+        var laLatLng = new google.maps.LatLng(51.346762, 0.602801);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location27", function() {
+        google.maps.event.trigger(markers[27], "click");
+        var laLatLng = new google.maps.LatLng(52.614558, -2.003930);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location28", function() {
+        google.maps.event.trigger(markers[28], "click");
+        var laLatLng = new google.maps.LatLng(51.068133, -1.793718);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+    $("#location-menu").on("click", "#location29", function() {
+        google.maps.event.trigger(markers[29], "click");
+        var laLatLng = new google.maps.LatLng(51.403, -0.257);
+	    map.setZoom(8);
+        map.panTo(laLatLng);
+    });
+
+  //Associate the styled map with the MapTypeId and set it to display.
+  map.mapTypes.set('map_style', styledMap);
+  map.setMapTypeId('map_style');
+
+  </script>
+
+<div class="row range-banner cf bg-cover bg-center-bottom" style="background-image: url(images/common/swirl-footer.jpg);">
+<div class="container cf">
+<div class="quote">
+<p>&ldquo;A well thought out and finished precision leveling tool that does exactly what it says on the box.&rdquo;</p>
+<p><strong>Prolevel, Hi-Fi World Magazine</strong></p>
+</div>
+</div>
+</div>
+
+<div id="footer">
+
+<div class="row cf">
+
+<div class="col col-narrow first border-right">
+<h3>Please feel free to contact Blue Horizon using any one of the following email addresses.<br /><br />For sales specific questions please use the <a href="where-to-buy/">Where to buy</a> section to contact your nearest distributor or dealer.</h3>
+</div>
+
+<div class="col col-narrow border-right">
+<h3>Support</h3>
+<ul>
+<li>General Questions:<br /><a href="mailto:info@bluehorizonideas.com">info@bluehorizonideas.com</a></li>
+<li>Overseas Distribution:<br /><a href="mailto:info@bluehorizonideas.com">info@bluehorizonideas.com</a></li>
+</ul>
+</div>
+
+<div class="col col-narrow border-right">
+<h3>Distributors</h3>
+<span class="dd-login">
+<ul>
+<li><a href="distributors/login"><i class="fa fa-lock"></i> Log in</a></li>
+</ul>
+</span>
+</div>
+
+<div class="col col-narrow social-media">
+<h3>Follow us</h3>
+<a class="fa fa-facebook" href="https://www.facebook.com/bluehorizonideas/" target="_blank"></a>
+</div>
+
+</div>
+
+<div class="row last">
+<p><a href="http://www.bluehorizonideas.com/">Home</a> | <a href="products/">Products</a> | <a href="news/">News</a> | <a href="where-to-buy/">Where to buy</a> | <a href="contact">Contact</a></p>
+<p>Blue Horizon is a registered trademark of Audio Power Systems GmbH</p>
+<p>&copy; 2017 Audio Power Systems GmbH. All rights reserved</p>
+</div>
+</div>
+
+<script type="text/javascript" async defer  data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
+<div id="menu">
+<ul><li class="first"><a href="http://www.bluehorizonideas.com/" title="Home" >Home</a></li>
+<li><a href="products/" title="Products" >Products</a><ul><li class="first"><a href="products/analogue-accessories/" title="Analogue Accessories" >Analogue Accessories</a><ul><li class="first"><a href="products/analogue-accessories/probrush/" title="Probrush" >Probrush</a></li>
+<li><a href="products/analogue-accessories/promat/" title="Promat" >Promat</a></li>
+<li><a href="products/analogue-accessories/prolevel/" title="Prolevel" >Prolevel</a></li>
+<li><a href="products/analogue-accessories/profono/" title="Profono" >Profono</a></li>
+<li class="last"><a href="products/analogue-accessories/riaa-filter/" title="RIAA Filter" >RIAA Filter</a></li>
+</ul></li>
+<li><a href="products/dedicated-isolation-platforms/" title="Dedicated Isolation Platforms" >Dedicated Isolation Platforms</a><ul><li class="first"><a href="products/dedicated-isolation-platforms/prs-rack-system/" title="Professional Rack System" >Professional Rack System</a></li>
+<li class="last"><a href="products/dedicated-isolation-platforms/sanctum/" title="Sanctum Isolation Platform" >Sanctum Isolation Platform</a></li>
+</ul></li>
+<li class="last"><a href="products/system-enhancing-accessories/" title="System Enhancing Accessories" >System Enhancing Accessories</a><ul><li class="first"><a href="products/system-enhancing-accessories/proburn/" title="Proburn" >Proburn</a></li>
+<li><a href="products/system-enhancing-accessories/clean-it/" title="Clean-IT" >Clean-IT</a></li>
+<li class="last"><a href="products/system-enhancing-accessories/spike-shoe/" title="Spike Shoe" >Spike Shoe</a></li>
+</ul></li>
+</ul></li>
+<li><a href="news/" title="News" >News</a></li>
+<li class="Selected"><a href="where-to-buy/" title="Where to buy" >Where to buy</a><ul><li class="first"><a href="where-to-buy/distributors/" title="Blue Horizon International Distribution" >Blue Horizon International Distribution</a></li>
+<li class="last Selected"><a href="where-to-buy/uk-regional-stores/" title="UK Regional Stores" >UK Regional Stores</a></li>
+</ul></li>
+<li class="last"><a href="contact" title="Contact" >Contact</a></li>
+</ul>
+</div>
+
+</div><!-- end page -->
+
+
+
+<script src="assets/templates/bluehorizon/js/functions.js"></script>
+
+
+
+</body>
+</html>
